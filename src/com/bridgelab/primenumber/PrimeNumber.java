@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 /**
  * @author mihir
- *
+ * 
+ * @since 24-June-2021.
+ *  
  * In this class we are accepting number from user,
  * and checking if the number is prime or not.
  * If number is divisible by other than 1 and itself then it is not a prime number.
@@ -14,7 +16,7 @@ public class PrimeNumber
 	public static void main(String[] args)
 	{
 		
-		Scanner scannerObject = new Scanner(System.in);		
+		Scanner scannerObject = new Scanner(System.in);
 		System.out.print("Enter a Number to check if it is a prime number or not : ");
 		int userInputNumber = scannerObject.nextInt();
 		scannerObject.close();
